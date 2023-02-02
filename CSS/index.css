@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 header{
@@ -67,4 +67,8 @@ img{
     margin: 0rem;
     padding: 0rem;
     display: block;
+}
+
+.hide{
+    display: none;
 }

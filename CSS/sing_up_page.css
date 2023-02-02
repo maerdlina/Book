@@ -53,10 +53,43 @@
     flex-grow: 0;
 }
 .flex_text_button{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 8.9rem; */
+    gap: 8.9rem;
+}
+
+.slider_div{
+    margin-top: 7.7rem;
+}
+
+.slider_img{
+    /* width: 100%; */
+}
+
+/* ЭКРАНЫ */
+
+@media screen and (max-width: 576px) {
+    /* extra small */
+    body{
+        margin: 0rem 1.5rem 0rem 1.5rem;
+    }
+    .slider_img{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    /* small */
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* medium */
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    /* large */   
+}
+@media screen and (min-width: 1201px) {
+    /* extra large */
 }
